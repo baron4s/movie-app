@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import './navBar.css';
+@import './nowplaying.css';
+@import './item.css';
+@import './popular-movie.css';
+@import './tvrated.css';
+@import './topRated-movies.css';
+@import './tv-popular.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1003%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M603 173L1513 172' stroke-width='8' stroke='url(%23SvgjsLinearGradient1004)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M1067 428L1559 427' stroke-width='10' stroke='url(%23SvgjsLinearGradient1005)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M1000 425L1798 424' stroke-width='8' stroke='url(%23SvgjsLinearGradient1004)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M1132 503L280 502' stroke-width='10' stroke='url(%23SvgjsLinearGradient1004)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M508 523L1518 522' stroke-width='6' stroke='url(%23SvgjsLinearGradient1005)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M1233 242L821 241' stroke-width='6' stroke='url(%23SvgjsLinearGradient1004)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M1084 301L10 300' stroke-width='8' stroke='url(%23SvgjsLinearGradient1004)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M1369 118L933 117' stroke-width='8' stroke='url(%23SvgjsLinearGradient1004)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M193 467L767 466' stroke-width='8' stroke='url(%23SvgjsLinearGradient1005)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M1177 459L265 458' stroke-width='8' stroke='url(%23SvgjsLinearGradient1005)' stroke-linecap='round' class='Right'%3e%3c/path%3e%3cpath d='M1352 209L503 208' stroke-width='8' stroke='url(%23SvgjsLinearGradient1004)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M206 410L-323 409' stroke-width='8' stroke='url(%23SvgjsLinearGradient1004)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M203 313L788 312' stroke-width='8' stroke='url(%23SvgjsLinearGradient1004)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3cpath d='M608 151L1357 150' stroke-width='8' stroke='url(%23SvgjsLinearGradient1004)' stroke-linecap='round' class='Left'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1003'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='100%25' y1='0%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1004'%3e%3cstop stop-color='rgba(28%2c 83%2c 142%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='%231c538e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='0%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1005'%3e%3cstop stop-color='rgba(28%2c 83%2c 142%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='%231c538e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+}
+main {
+  margin-top: 1em;
+}

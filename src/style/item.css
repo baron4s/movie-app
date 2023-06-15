@@ -1,0 +1,114 @@
+search-element {
+  display: block;
+  margin-top: 2em;
+}
+list-search {
+  margin-top: 1em;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, 200px, 1fr);
+}
+.placeholder-search {
+  font-weight: lighter;
+  color: #b8b2b1c0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+item-search {
+  display: block;
+}
+
+.poster {
+  position: relative;
+  width: 200px;
+}
+.icon-star {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  background-color: #fff;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  color: #ff4c29;
+  padding: 5px;
+  gap: 3px;
+  max-width: 80px;
+  z-index: 888;
+}
+.poster .img-poster {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.footer-item .title-item {
+  margin: 6px 0 5px 0;
+  color: #fff;
+  text-decoration: none;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 14px;
+}
+.poster .meta ul {
+  display: flex;
+  font-size: 12px;
+  list-style: none;
+  color: #cac8c8;
+  justify-content: flex-start;
+  padding: 0;
+  gap: 8px;
+  margin-top: 3px;
+}
+.poster .view-detail {
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  border: #ff4c29 1px solid;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.573);
+  -o-border-radius: 5px;
+  z-index: 999;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+}
+.poster .view-detail a {
+  text-align: center;
+  width: 100%;
+  color: #ff4c29;
+  padding: 10px;
+  text-decoration: none;
+}
+.poster:hover .img-poster {
+  filter: contrast(50%);
+  -webkit-filter: contrast(50%);
+}
+.poster:hover .view-detail {
+  opacity: 1;
+}
+@media (max-width: 600px) {
+  list-search {
+    grid-template-columns: 1fr 1fr;
+  }
+  .poster .meta ul {
+    font-size: 10px;
+  }
+}

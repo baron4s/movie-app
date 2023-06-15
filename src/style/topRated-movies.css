@@ -1,0 +1,23 @@
+.toprated-movies {
+  margin-top: 2em;
+}
+.toprated-movies h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}
+list-topratedmovies {
+  margin-top: 1rem;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+@media (max-width: 600px) {
+  list-topratedmovies {
+    grid-template-columns: 1fr 1fr;
+  }
+  .poster .meta ul {
+    font-size: 10px;
+  }
+}

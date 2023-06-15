@@ -1,0 +1,22 @@
+.tv-toprated {
+  margin-top: 2em;
+}
+.tv-toprated h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}
+toprated-tv {
+  margin-top: 1em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+@media (max-width: 600px) {
+  toprated-tv {
+    grid-template-columns: 1fr 1fr;
+  }
+  .poster .meta ul {
+    font-size: 10px;
+  }
+}

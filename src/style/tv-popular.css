@@ -1,0 +1,23 @@
+.tv-popular {
+  margin-top: 2em;
+}
+.tv-popular h2 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 700;
+  color: #fff;
+}
+tv-popular {
+  margin-top: 1rem;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+@media (max-width: 600px) {
+  tv-popular {
+    grid-template-columns: 1fr 1fr;
+  }
+  .poster .meta ul {
+    font-size: 10px;
+  }
+}
